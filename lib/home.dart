@@ -5,7 +5,7 @@ class SilverBar extends StatefulWidget {
   _SilverBarState createState() => _SilverBarState();
 }
 
-class _SilverBarState extends State<SilverBar> {
+class _SilverBarState extends State<SilverBar>with SingleTickerProviderStateMixin {
   TabController _tabController;
   ScrollController _scrollViewController;
 
@@ -48,7 +48,7 @@ class _SilverBarState extends State<SilverBar> {
       ),
       pinned: true,
       floating: true,
-      forceElevated: boxIsScrolled,
+      // forceElevated: boxIsScrolled,
       expandedHeight: 110.0,
       bottom: TabBar(
         isScrollable: true,
