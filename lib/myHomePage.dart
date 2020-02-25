@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
 import './drawerPage.dart';
-import './tabItem.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -61,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage>
                     Expanded(
                       child: Container(
                         margin: EdgeInsets.only(left: 20.0),
-                        padding: const EdgeInsets.only(left:15.0,right:15.0,top:2.0,bottom: 4.0),
+                        padding: const EdgeInsets.only(left:15.0,right:15.0,top: 0.0,bottom: 4.0),
                         alignment: Alignment.center,
                         height: 30.0,
                         decoration: BoxDecoration(
