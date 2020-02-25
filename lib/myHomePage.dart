@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage>
                           border: Border.all(color: Colors.white, width: 1.0),
                           borderRadius: BorderRadius.circular(19.0)),
                           child: TextFormField(
-                            decoration: InputDecoration.collapsed(hintText: '搜索你感兴趣的内容',hintStyle: TextStyle(color: Colors.white)),
+                            decoration: InputDecoration.collapsed(hintText: '搜索您感兴趣的内容',hintStyle: TextStyle(color: Colors.white)),
                           ),
                       ))
                   ],
